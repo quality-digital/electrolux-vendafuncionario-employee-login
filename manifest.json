@@ -1,0 +1,21 @@
+{
+  "vendor": "electrolux",
+  "name": "employee-login",
+  "version": "0.1.0",
+  "title": "employee-login",
+  "description": "Employee login application",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
